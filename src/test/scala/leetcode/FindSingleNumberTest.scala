@@ -10,6 +10,7 @@ object FindSingleNumberTest extends App {
     Assert.assertEquals(expeted,actual)
   }
 
+
   @org.junit.Test
   def test2(): Unit = {
     val myList: Array[Int] = Array(1, 2, 2, 4, 4)
